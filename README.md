@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+Write tests in natural language to map to tests: communicate better as a team!
+
 Live demo to learn from: <https://cucumber.github.io/cucumber-js/>
 
 Conceptual explanation: <https://www.youtube.com/watch?v=L3rHsE-nA78>
