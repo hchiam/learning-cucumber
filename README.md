@@ -4,6 +4,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Live demo to learn from: <https://cucumber.github.io/cucumber-js/>
 
+Conceptual explanation: <https://www.youtube.com/watch?v=L3rHsE-nA78>
+
 GitHub Repo to learn from: <https://github.com/cucumber/cucumber-js>
 
 You can generate a [dependency graph](https://github.com/hchiam/learning-dependency-cruiser) with `bash show_dep_graph.sh`.
