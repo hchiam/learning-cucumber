@@ -58,8 +58,9 @@ Medium Article to learn from: <https://medium.com/@mvwi/story-writing-with-gherk
 <https://medium.com/@itortv/how-to-integrate-cypress-and-cucumber-in-your-development-flow-in-just-a-few-weeks-96a46ac9165a>
 
 Or maybe just try out this repo: <https://github.com/TheBrainFamily/cypress-cucumber-example>
+
 - `cypress run --spec "**/*.feature"`
-- [`cypress-cucumber-preprocessor`](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
+- [`cypress-cucumber-preprocessor`](https://www.npmjs.com/package/cypress-cucumber-preprocessor) lets you run Gherkin specs with Cypress.
 
 ```bash
 npm install --save-dev cypress-cucumber-preprocessor
