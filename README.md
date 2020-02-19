@@ -59,7 +59,8 @@ Medium Article to learn from: <https://medium.com/@mvwi/story-writing-with-gherk
 
 Or maybe just try out this repo: <https://github.com/TheBrainFamily/cypress-cucumber-example>
 
-- `cypress run --spec "**/*.feature"`
+- `cypress run --spec "**/*.feature"` for Cypress CLI output.
+- `cypress run` for the Cypress GUI. And yes, the .feature(s) files can be read because of:
 - [`cypress-cucumber-preprocessor`](https://www.npmjs.com/package/cypress-cucumber-preprocessor) lets you run Gherkin specs with Cypress.
 
 ```bash
