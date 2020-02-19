@@ -8,13 +8,17 @@
     "start": "open src/index.html & open http://localhost:8000",
     "build": "",
     "test": "jest --passWithNoTests",
-    "lint": "eslint src/*.js --max-warnings=0",
-    "fix": "eslint --fix src/*.js",
+    "test:cucumber": "./node_modules/.bin/cucumber-js",
+    "lint": "eslint src/**/*.js features/**/*.js --max-warnings=0",
+    "fix": "eslint --fix src/**/*.js features/**/*.js",
     "reminder": "echo; echo -e 'Reminders: Did you do \\033[1;34mnpm run my-build\\033[0m first? \nDo you need to \\033[1;34m[skip ci]\\033[0m?'; echo;"
   },
   "author": "hchiam",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
     "eslint": "^6.4.0",
     "eslint-config-google": "^0.14.0",
     "husky": "^3.0.9",
@@ -24,8 +28,5 @@
     "hooks": {
       "pre-commit": "npm run reminder; npm run lint && npm test; npm run reminder;"
     }
-  },
-  "dependencies": {
-    "cucumber": "^6.0.5"
   }
 }

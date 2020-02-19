@@ -15,11 +15,8 @@ module.exports = {
     'sourceType': 'module',
   },
   'rules': {
+    'no-invalid-this': 'off',
+    'require-jsdoc': 'off',
+    'new-cap': 'off',
   },
 };
-
-/**
- * This file was first created using the Yeoman generator
- * generator-hchiam-learning:
- * https://www.npmjs.com/package/generator-hchiam-learning
- */
