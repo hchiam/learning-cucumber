@@ -52,3 +52,7 @@ Live demo to learn from: <https://cucumber.github.io/cucumber-js/>
 Conceptual explanation: <https://www.youtube.com/watch?v=L3rHsE-nA78>
 
 Medium Article to learn from: <https://medium.com/@mvwi/story-writing-with-gherkin-and-cucumber-1878124c284c>
+
+## When I get around to it or need it
+
+Combine [Cypress](https://github.com/hchiam/learning-cypress) and Cucumber: <https://medium.com/@itortv/how-to-integrate-cypress-and-cucumber-in-your-development-flow-in-just-a-few-weeks-96a46ac9165a>
