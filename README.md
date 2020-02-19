@@ -53,8 +53,34 @@ Conceptual explanation: <https://www.youtube.com/watch?v=L3rHsE-nA78>
 
 Medium Article to learn from: <https://medium.com/@mvwi/story-writing-with-gherkin-and-cucumber-1878124c284c>
 
-## When I get around to it or need it
+### Combine [Cypress](https://github.com/hchiam/learning-cypress) and Cucumber
 
-Combine [Cypress](https://github.com/hchiam/learning-cypress) and Cucumber: <https://medium.com/@itortv/how-to-integrate-cypress-and-cucumber-in-your-development-flow-in-just-a-few-weeks-96a46ac9165a>
+<https://medium.com/@itortv/how-to-integrate-cypress-and-cucumber-in-your-development-flow-in-just-a-few-weeks-96a46ac9165a>
 
 Or maybe just try out this repo: <https://github.com/TheBrainFamily/cypress-cucumber-example>
+- `cypress run --spec "**/*.feature"`
+- [`cypress-cucumber-preprocessor`](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
+
+```bash
+npm install --save-dev cypress-cucumber-preprocessor
+```
+
+```js
+// cypress/plugins/index.js
+const cucumber = require('cypress-cucumber-preprocessor').default;
+module.exports = (on, config) => {
+  on('file:preprocessor', cucumber())
+}
+
+// cypress.json ( .features with an "s" is used for bundling - see npm notes: https://www.npmjs.com/package/cypress-cucumber-preprocessor )
+{
+  "testFiles": "**/*.feature"
+}
+
+// package.json
+"cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+}
+```
+
+And put .feature files inside [`cypress/integration/...`](https://github.com/TheBrainFamily/cypress-cucumber-example/tree/master/cypress/integration), grouped with their respective test files.
