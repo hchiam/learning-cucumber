@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run reminder; if (npm run lint && npm test && npm run test:cucumber); then npm run reminder; else npm run reminder && exit 1; fi;"
+      "pre-commit": "npm run reminder; if (npm run lint && npm test); then npm run reminder; else npm run reminder && exit 1; fi;"
     }
   }
 }
