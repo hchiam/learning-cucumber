@@ -55,6 +55,8 @@ Medium Article to learn from: <https://medium.com/@mvwi/story-writing-with-gherk
 
 ### Combine [Cypress](https://github.com/hchiam/learning-cypress) and Cucumber
 
+(UPDATE: I have a [simpler example of combining Cucumber Gherkin and Cypress](https://github.com/hchiam/learning-cypress/tree/master/cucumber#tutorial-to-try-out-combining-cucumberjs-and-cypress).)
+
 <https://medium.com/@itortv/how-to-integrate-cypress-and-cucumber-in-your-development-flow-in-just-a-few-weeks-96a46ac9165a>
 
 Or maybe just try out this repo: <https://github.com/TheBrainFamily/cypress-cucumber-example>
